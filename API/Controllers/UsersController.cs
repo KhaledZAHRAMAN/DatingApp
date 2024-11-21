@@ -8,7 +8,7 @@ namespace API;
 [Route("api/[controller]")] // /api/users
 public class UsersController(Datacontext context) : ControllerBase
 {
-    [HttpGet("GetUsers")]
+    [HttpGet]
     public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
     {
         var users = await context.Users.ToListAsync();
