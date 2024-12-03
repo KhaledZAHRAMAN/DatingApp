@@ -152,3 +152,11 @@ C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\runtimes\browser\lib\net8.
 C:\Users\Owner\Desktop\DatingApp\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 C:\Users\Owner\Desktop\DatingApp\API\obj\Debug\net8.0\API.csproj.Up2Date
 C:\Users\Owner\Desktop\DatingApp\API\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
