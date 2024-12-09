@@ -10,12 +10,8 @@ namespace API;
 
 public class TokenService(IConfiguration config) :ITokenService
 {
-    internal static string CreateToken(AppUser user)
-    {
-        throw new NotImplementedException();
-    }
 
-    public string createToken(AppUser user)
+    public string CreateToken(AppUser user)
     {
         var tokenKey = config["TokenKey"] ?? throw new Exception("cannot access tokenKey from appsettings");
         if (tokenKey.Length < 64) throw new Exception("Your tokenKey needs to be longer");

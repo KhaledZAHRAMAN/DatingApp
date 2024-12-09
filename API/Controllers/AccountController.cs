@@ -29,7 +29,7 @@ public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
     return new UserDto
     {
         UserName = user.UserName,
-        token = TokenService.CreateToken(user)
+        token = tokenService.CreateToken(user)
     };
 }
 
@@ -52,7 +52,7 @@ public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
     return new UserDto
     {
         UserName = user.UserName,
-        token = tokenService.createToken(user)
+        token = tokenService.CreateToken(user)
     };
 }
 
