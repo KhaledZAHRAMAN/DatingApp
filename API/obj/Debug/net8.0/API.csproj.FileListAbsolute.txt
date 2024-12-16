@@ -160,6 +160,3 @@ C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\System.IdentityModel.Token
 C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Owner\Desktop\DatingApp\API\bin\Debug\net8.0\API.staticwebassets.endpoints.json
-C:\Users\Owner\Desktop\DatingApp\API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Owner\Desktop\DatingApp\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
