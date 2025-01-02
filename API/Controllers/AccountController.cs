@@ -15,22 +15,24 @@ public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
 {
     if (await UserExists(registerDto.Username)) return BadRequest("UserName is taken");
 
-    using var hmac = new HMACSHA512();
+    return Ok();
 
-    var user = new AppUser
-    {
-        UserName = registerDto.Username.ToLower(),
-        passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
-        passwordsalt = hmac.Key
-    };
-    context.Users.Add(user);
-    await context.SaveChangesAsync();
+    // using var hmac = new HMACSHA512();
 
-    return new UserDto
-    {
-        Username = user.UserName,
-        token = tokenService.CreateToken(user)
-    };
+    // var user = new AppUser
+    // {
+    //     UserName = registerDto.Username.ToLower(),
+    //     passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
+    //     passwordsalt = hmac.Key
+    // };
+    // context.Users.Add(user);
+    // await context.SaveChangesAsync();
+
+    // return new UserDto
+    // {
+    //     Username = user.UserName,
+    //     token = tokenService.CreateToken(user)
+    // };
 }
 
 [HttpPost("login")]
